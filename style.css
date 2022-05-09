@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #213d5a;
+}
+
+.Presentacion {
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+.Presentacion-Img {
+    width: 175px;
+    height: 200px;
+    border: 1px solid #202020;
+    border-radius: 50%;
+}
+
+.Presentacion-Font {
+    margin: 10px 0 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #101010;
+}
+
+.Presentacion-Font-2 {
+    margin: 10px 0 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #101010;
+}
+
+.Redes-Display {
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Redes-Text {
+    font-family: 'Tapestry', cursive;
+    color: #101010;
+}
+
+.Redes-Size {
+    width: 100px;
+    height: 100px;
+}
+
+.Redes-Size:hover {
+    transition: all 1s;
+    padding: 10px
+}
+
+.Texto-Inferior {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.TI-Text {
+    font-size: 25px;
+    color: #101010;
+}
+
+.TI-Img {
+    width: 50px;
+    height: 50px;
+}
