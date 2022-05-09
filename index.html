@@ -1,42 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="shortcut icon" type="image/x-icon" href="img/peepoHappy.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
-    <title>SebasZMWeb</title>
-</head>
-<body>
-    <div class="Presentacion">
-        <img id="FotoMia" class="Presentacion-Img" src="img/Me.png">
-        <h2 class="Presentacion-Font">Sebas ZM Web</h2>
-        <h4 id="TextoMio" class="Presentacion-Font-2">Bienvenido</h4>
-    </div>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
-    <div class="Redes-Display">
-        <a href="https://www.instagram.com/sebaszm_28/">
-            <img class="Redes-Size" src="logo/IGLogo.png">
-            <h4 class="Redes-Text">Instagram</h4>
-        </a>
-        <a>
-            <img class="Redes-Size" src="logo/DiscLogo.png" onclick="DiscClick(),audioC.play()">
-            <h4  id="DiscText" class="Redes-Text">Discord</h4>
-        </a>
-        <a>
-            <img class="Redes-Size" src="logo/PLogo.png" onclick="PClick(),audioC.play()">
-            <h4 id="PText" class="Redes-Text">Numero</h4>
-        </a>
-        <a>
-            <img class="Redes-Size" src="logo/OFLogo.png" onclick="OFClick(),audioR.play()">
-            <h4 class="Redes-Text">🔞Only Fans🔞</h4>
-        </a>
-    </div>
-    <div class="Texto-Inferior"><img class="TI-Img" src="img/Based.gif"><h4 class="TI-Text">ᅠSi quieres una pagina igual contactameᅠ</h4><img class="TI-Img" src="img/catPls.gif"></div>
-    <script src="main.js" type="text/javascript"></script>
-</body>
-</html>
+body {
+    background-color: #213d5a;
+}
+
+.Presentacion {
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+.Presentacion-Img {
+    width: 175px;
+    height: 200px;
+    border: 1px solid #202020;
+    border-radius: 50%;
+}
+
+.Presentacion-Font {
+    margin: 10px 0 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #101010;
+}
+
+.Presentacion-Font-2 {
+    margin: 10px 0 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #101010;
+}
+
+.Redes-Display {
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Redes-Text {
+    font-family: 'Tapestry', cursive;
+    color: #101010;
+}
+
+.Redes-Size {
+    width: 100px;
+    height: 100px;
+}
+
+.Redes-Size:hover {
+    transition: all 1s;
+    padding: 10px
+}
+
+.Texto-Inferior {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.TI-Text {
+    font-size: 25px;
+    color: #101010;
+}
+
+.TI-Img {
+    width: 50px;
+    height: 50px;
+}
