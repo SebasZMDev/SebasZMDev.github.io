@@ -13,7 +13,7 @@ function OFClick(){
 }
 
 function DiscClick(){
-    document.getElementById("DiscText").innerHTML = "SEBAS ZM#4552";
+    document.getElementById("DiscText").innerHTML = "SebasZM#4552";
     var SebasDisc = document.getElementById("DiscText");
     SebasDisc.style=("color: blue;")
 }
