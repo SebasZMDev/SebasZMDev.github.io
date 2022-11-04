@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SebasZM Web</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/peepoHack.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+</head>
+<header id="inicio">
+    <nav class="headNav">
+        <a class="headNavLink" href="#inicio">Inicio</a>
+        <a class="headNavLink"  href="#skill">Skills</a>
+        <a class="headNavLink"  href="#proyectos">Proyectos</a>
+        <a class="headNavLink"  href="#contacto">Contacto</a>
+    </nav>
+    <img src="img/Banner.gif" alt="Banner" class="headBanner">
+    <div class="headDiv">
+        <img src="img/Yo.png" alt="DeveloperFace" class="headPfp">
+        <h2 class="headFont">SebasZMDev</h2>
+        <hr>
+        <h4 class="headSubFont">Software enginner</h4>
+    </div>
+</header>
+<body>
+    <section id="skill">
+        <h2 class="Titulos">Skill Set</h2>
+        <hr>
+        <div class="skillDisplay centro">
+            <img class="skillLogo"  title="HTML" src="icon/HTML.png" alt="HTML Logo">
+            <img class="skillLogo"  title="CSS" src="icon/CSS.png" alt="CSS Logo">
+            <img class="skillLogo"  title="JavaScript" src="icon/JavaScript.png" alt="JavaScript Logo">
+            <img class="skillLogo"  title="SQL" src="icon/SQL.png" alt="SQL Logo">
+            <img class="skillLogo"  title="LuaCode" src="icon/LuaCode.png" alt="LuaCode Logo">
+            <img class="skillLogo"  title="Photoshop" src="icon/Photoshop.png" alt="Photoshop Logo">
+            <img class="skillLogo"  title="MicrosoftOffice" src="icon/Office.png" alt="MicrosoftOffice Logo">
+            <img class="skillLogo"  title="Blender" src="icon/Blender.png" alt="Blender Logo">
+
+        </div>
+
+    </section>
+
+    <section id="proyectos">
+        <h2 class="Titulos">Proyectos</h2>
+        <hr>
+        <br>
+        <div class="chevronDisplay">
+            <img class="chevron" src="img/chevron-left-solid.png" onclick="chevronLeft();">
+            <img class="chevron" src="img/chevron-right-solid.png" onclick="chevronRight();">
+        </div>
+        <article class="proyDisplay" style="visibility: visible;" id="Proyecto1">
+            <div>
+                <video autoplay loop muted class="proyImg" src="video.mp4"></video>
+            </div>
+            <div class="proyImgDivText">
+                <div class="proyParrafoScroll">
+                    <a class="proyImgTitle"><strong>Pagina Web Responsive Desing</strong></a>
+                    <p class="proyImgParrafo">Pagina Web personal para uso laboral, cuenta con seccion de pagina principal, seccion de casos y contacto, los iconos tienen animaciones y el diseño se adapta a diferentes pantallas</p>
+                </div>
+                <div>
+                    <h6 class="proyImgTec">Tecnologias usadas</h6>
+                    <br>
+                    <img class="proyImgIcons" src="icon/HTML.png">
+                    <img class="proyImgIcons" src="icon/CSS.png">
+                    <img class="proyImgIcons" src="icon/JavaScript.png">
+                </div>
+            </div>
+        </article>
+
+        <article class="proyDisplay" style="visibility: hidden;" id="Proyecto2">
+            <div>
+                <img class="proyImg" src="img/Construccion.gif">
+            </div>
+            <div class="proyImgDivText">
+                <div class="proyParrafoScroll">
+                    <a class="proyImgTitle"><strong>Proyecto 2</strong></a>
+                    <p class="proyImgParrafo">[Proyecto aun en desarrollo]</p>
+                </div>
+                <div>
+                    <h6 class="proyImgTec">Tecnologias usadas</h6>
+                    <br>
+                    <img class="proyImgIcons" src="icon/HTML.png">
+                    <img class="proyImgIcons" src="icon/CSS.png">
+                    <img class="proyImgIcons" src="icon/JavaScript.png">
+                </div>
+            </div>
+        </article>
+
+        <article class="proyDisplay" style="visibility: hidden;" id="Proyecto3">
+            <div>
+                <img class="proyImg" src="img/Construccion.gif">
+            </div>
+            <div class="proyImgDivText">
+                <div class="proyParrafoScroll">
+                    <a class="proyImgTitle"><strong>Proyecto 3</strong></a>
+                    <p class="proyImgParrafo">[Proyecto aun en desarrollo]</p>
+                </div>
+                <div>
+                    <h6 class="proyImgTec">Tecnologias usadas</h6>
+                    <br>
+                    <img class="proyImgIcons" src="icon/HTML.png">
+                    <img class="proyImgIcons" src="icon/CSS.png">
+                    <img class="proyImgIcons" src="icon/JavaScript.png">
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2 class="Titulos">Contacto</h2>
+        <hr>
+        <br>
+
+        <div class="contaDisplay centro">
+
+            <div class="contaOrden">
+                <img class="contaImg" src="icon/logoPhone.png">
+                <p class="contaText">914 698 165</p>
+            </div>
+
+            <div class="contaOrden">
+                <img class="contaImg" src="icon/logoMail.png">
+                <p class="contaText">sebaszelada28@gmail.com</p>
+            </div>
+
+            <div class="contaOrden">
+                <img class="contaImg" src="icon/logoGithub.png">
+                <p class="contaText">https://github.com/SebasZMDev</p>
+            </div>
+
+            <div class="contaOrden">
+                <img class="contaImg" src="icon/logoDiscord.png">
+                <p class="contaText">SebasZM#4552</p>
+            </div>
+        </div>
+        <br>
+    </section>
+    <div class="cvDisplay">
+        <a href="CV_ME.docx"><button class="cvBtn">Descargar CV</button></a>
+    </div>
+
+    <marquee direction="right"><img class="pepe" src="img/peepoRun.gif"></marquee>
+
+</body>
+<footer>
+    <p>Developed and designed by SebasZMDev. ©2022. All rights reserved.</p>
+</footer>
+<script src="main.js" type="text/javascript"></script>
+</html>
+
+
+
+<!-- 
+⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿
+⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢺⣿
+⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠆⠜⣿
+⣿⣿⣿⣿⠿⠿⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿
+⣿⣿⡏⠁⠀⠀⠀⠀⠀⣀⣠⣤⣤⣶⣶⣶⣶⣶⣦⣤⡄⠀⠀⠀⠀⢀⣴⣿
+⣿⣿⣷⣄⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⡧⠇⢀⣤⣶
+⣿⣿⣿⣿⣿⣿⣾⣮⣭⣿⡻⣽⣒⠀⣤⣜⣭⠐⢐⣒⠢⢰
+⣿⣿⣿⣿⣿⣿⣿⣏⣿⣿⣿⣿⣿⣿⡟⣾⣿⠂⢈⢿⣷⣞
+⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣷⣶⣾⡿⠿⣿⠗⠈⢻⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠻⠋⠉⠑⠀⠀⢘⢻
+⣿⣿⣿⣿⣿⣿⣿⡿⠟⢹⣿⣿⡇⢀⣶⣶⠴⠶⠀⠀⢽
+⣿⣿⣿⣿⣿⣿⡿⠀⠀⢸⣿⣿⠀⠀⠣⠀⠀⠀⠀⠀⡟⢿⣿
+⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀⠹⣿⣧⣀⠀⠀⠀⠀⡀⣴⠁⢘⡙
+⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⠗⠂⠄⠀⣴⡟⠀⠀⡃
+
+   _____ ______ ____           _____   ________  __  
+  / ____|  ____|  _ \   /\    / ____| |___  /  \/  | 
+ | (___ | |__  | |_) | /  \  | (___      / /| \  / | 
+  \___ \|  __| |  _ < / /\ \  \___ \    / / | |\/| | 
+  ____) | |____| |_) / ____ \ ____) |  / /__| |  | | 
+ |_____/|______|____/_/    \_\_____/  /_____|_|  |_| 
+
+-->

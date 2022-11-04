@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --colorSec: #757575;
+    --colorPrim: #202020;
+    --colorBlack: #000;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: var(--colorPrim);
+}
+
+.centro {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+} 
+
+/* ----------   HEADER  ---------- */
+
+header {
+    text-align: center;
+    height: 650px;
+}
+
+.headNav {
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: var(--colorPrim);
+    border-bottom: 5px var(--colorBlack) solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headNavLink {
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+    color: var(--colorSec);
+    font-family: 'Maven Pro', sans-serif;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.headNavLink:hover {
+    transition: all 0.5s;
+    font-size: 28px;
+    padding: 1px;
+    margin: 1px;
+    background-image: linear-gradient(var(--colorBlack),var(--colorSec),var(--colorBlack));
+    color:transparent;
+    background-clip: unset;
+    -webkit-background-clip: text;
+}
+
+.headBanner {
+    width: 100%;
+    height: 102.5%;
+    filter: blur(5px);
+}
+
+.headPfp {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 0 50% 50%;
+}
+
+.headDiv {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -500px;
+}
+
+.headFont {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 50px;
+    color: var(--colorSec);
+    text-shadow: 2.5px 2.5px var(--colorPrim);
+}
+
+hr {
+    background-image: linear-gradient(to right,transparent,var(--colorSec),transparent);
+    height: 1px;
+    border: none;
+}
+
+.headSubFont {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    color: var(--colorSec);
+    text-shadow: 2.5px 2.5px var(--colorPrim);
+}
+
+/* ----------   BODY  ---------- */
+
+.Titulos {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 75px;
+    color: var(--colorSec);
+    padding-top: 75px;
+}
+
+/* ----------   SKILLS  ---------- */
+
+.skillDisplay {
+    position: relative;
+    margin: 5% 5% 5% 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.skillLogo {
+    margin: 5%;
+    width:125px;
+    height: 125px;
+    transition-duration: 2.5s;
+}
+
+.skillLogo:hover {
+    transition: 1s;
+    filter: drop-shadow(white 0 0 25px)
+} 
+
+/* ----------   PROYECTOS  ---------- */
+
+/* ----------   Div1  ---------- */
+
+.proyDisplay {
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    margin: 0 10% 0 10%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.proyImg {
+    border-radius: 5% 0 0 5%;
+    width: 100%;
+    height: 400px;
+}
+
+/* ----------   Chevron  ---------- */
+
+.chevronDisplay {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+}
+
+.chevron {
+    width: 100px;
+    height: 175px;
+    margin: 5px;
+    filter: blur(5px);
+    transition-duration: 0.5s;
+}
+
+.chevron:active {
+    transition: all 0.1s;
+    padding: 15px;
+    filter: blur(5px);
+}
+
+/* ----------   Div2  ---------- */
+
+.proyImgDivText{
+    display: grid;
+    grid-template-rows: 65% 35%;
+    border-radius: 0 5% 5% 0;
+    background-color: var(--colorSec);
+    height: 400px;
+}
+
+/* ----------   Div2.1  ---------- */
+
+.proyParrafoScroll {
+    display: block;
+    width: 100%;
+    overflow: auto;
+  }
+
+.proyParrafoScroll::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+}
+
+.proyParrafoScroll::-webkit-scrollbar-thumb {
+    background-color: var(--colorPrim);
+    border-radius: 25px;
+}
+
+.proyImgTitle {
+    position: relative;
+    top: 5%;
+    font-size: 150%;
+}
+
+.proyImgParrafo {
+    padding: 15px 5px 0 5px;
+    text-align: center;
+    font-size: 20px;
+    max-width: 100%;
+    max-height: 250px;
+
+}
+
+/* ----------   Div2.2  ---------- */
+
+.proyImgTec {
+    font-size: 25px;
+}
+
+.proyImgIcons {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+/* ----------   CONTACTO  ---------- */
+
+#contacto {
+    margin-top: 450px;
+}
+
+.contaDisplay {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0% 2.5%;
+}
+
+.contaOrden {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 15% 85%;
+    background-color: var(--colorSec);
+    border-radius: 25px;
+    margin: 25px;
+    padding: 10px;
+    border: #000 solid 2.5px;
+    width: 95%;
+
+}
+
+.contaImg {
+    text-align: right;
+    width: 50px;
+    height: 50px;
+
+}
+
+.contaText {
+    font-family: 'Maven Pro', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* ----------   CV  ---------- */
+
+.cvDisplay {
+    text-align: center;
+}
+
+.cvBtn {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 25px;
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    border: solid #000 2.5px;
+    background-color: var(--colorSec);
+    border-radius: 50px;
+}
+
+.cvBtn:active {
+    transition: all 0.1s;
+    width: 275px;
+    height: 80px;
+    margin: 15.5px;
+    box-shadow: 0 10px 25px 1px black;
+}
+
+/* ----------   FOOTER  ---------- */
+
+footer {
+    margin-top: -10px;
+    font-size: 15px;
+    background-color: #000;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.pepe {
+    width: 50px;
+    height: 50px;
+}
+
+/* MEDIA */
+
+@media (max-width: 900px) {
+
+    .Titulos {
+        font-size: 50px;
+    }
+
+    /* DISPLAY */
+
+    .headBanner {
+        margin-top: 75px;
+        height: 250px;
+    }
+    .headDiv {
+        top: -250px;
+    }
+    #skill {
+        margin-top: -350px;
+    }
+    #contacto {
+        margin-top: 300px;
+    }
+
+
+/* HEADER */
+
+    .headNavLink {
+        font-size: 20px;
+    }
+    .headNavLink:hover {
+        font-size: 15px;
+    }
+    .headPfp {
+        width: 150px;
+        height: 150px;
+    }
+    .headFont {
+        font-size: 25px;
+    }
+    .headSubFont {
+        font-size: 15px;
+    }
+
+/* SKILL */
+
+    .skillDisplay {
+        grid-template-columns: auto auto;
+    }
+    .skillLogo {
+        width: 75px;
+        height: 75px;
+    }
+
+/* PROYECTO */
+
+    .proyImg {
+        border-radius: 5% 0 0 5%;
+        width: 100%;
+        height: 300px;
+    }
+    .proyImgDivText{
+        height: 300px;
+    }
+    .proyImgTitle {
+        position: relative;
+        top: 5%;
+        font-size: 75%;
+    }
+    .proyImgParrafo {
+        font-size: 10px;
+    }
+    .proyImgTec {
+        font-size: 15px;
+    }
+    .proyImgIcons {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+    }
+    .chevron {
+        width: 50px;
+        height: 100px;
+    }   
+    .chevron:active {
+        transition: all 0.1s;
+        padding: 5px;
+        filter: blur(5px);
+    }
+
+/* PROYECTO */
+
+    .contaDisplay {
+        grid-template-columns: 100%;
+    }
+    .contaText {
+        font-size: 15px;
+    }
+}
