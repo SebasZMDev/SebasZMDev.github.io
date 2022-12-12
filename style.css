@@ -321,6 +321,13 @@ footer {
     display: none;
 }
 
+.hiddenLink {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 0 20px;
+}
+
 #hiddenInput {
     background-color: var(--colorBlack);
     border: none;
