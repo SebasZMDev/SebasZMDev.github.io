@@ -52,3 +52,17 @@ let chevronLeft = () => {
         document.getElementById("Proyecto3").style="visibility: hidden;"
     }
 }
+
+function showInput() {
+    var element = document.getElementById("hiddenInput");
+    element.classList.remove("hidden")
+}
+
+function sendInput() {
+    const valor = document.getElementById("hiddenInput").value
+    console.log(valor)
+    if (valor == "xd"){
+        var element = document.getElementById("hiddenLinks");
+        element.classList.remove("hidden")
+    }
+}
