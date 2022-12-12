@@ -61,7 +61,7 @@ function showInput() {
 function sendInput() {
     const valor = document.getElementById("hiddenInput").value
     console.log(valor)
-    if (valor == "xd"){
+    if (valor == "musica"){
         var element = document.getElementById("hiddenLinks");
         element.classList.remove("hidden")
     }
