@@ -317,6 +317,16 @@ footer {
     font-family: sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
+#hiddenInput {
+    background-color: var(--colorBlack);
+    border: none;
+    color: white;
+}
+
 .pepe {
     width: 50px;
     height: 50px;
