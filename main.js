@@ -65,4 +65,8 @@ function sendInput() {
         var element = document.getElementById("hiddenLinks");
         element.classList.remove("hidden")
     }
+    if (valor == "discord"){
+        var element = document.getElementById("hiddenDisc");
+        element.classList.remove("hidden")
+    }
 }
